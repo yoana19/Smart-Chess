@@ -1,5 +1,6 @@
+#define ldrPin 8  // pin where we connect LDR and resistor
 
-const int ldrPin = A0;
+int ldrValue = 0; // result of reading the analog pin
 
 void setup() {
 
@@ -11,15 +12,10 @@ pinMode(ldrPin, INPUT);
 
 void loop() {
 
-int ldrStatus = analogRead(ldrPin);
-if (ldrStatus > 600) {
-  Serial.println(ldrStatus);
-  delay(1000);
-}
-
-
-
-
-
+ldrValue = digitalRead(ldrPin);// read the value from the LDR
+if (ldrValue == 0) {
+  Serial.println(ldrValuegit);
+  delay(500);
+} 
 
 }
