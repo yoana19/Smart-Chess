@@ -218,7 +218,7 @@ ldrValueB7 = digitalRead(ldrPinB7);
 ldrValueB8 = digitalRead(ldrPinB8);
 ldrValueC1 = digitalRead(ldrPinC1);
 ldrValueC2 = digitalRead(ldrPinC2);
-ldrValueC3 = digitalRead(ldrPinC3):
+ldrValueC3 = digitalRead(ldrPinC3);
 ldrValueC4 = digitalRead(ldrPinC4);
 ldrValueC5 = digitalRead(ldrPinC5);
 ldrValueC6 = digitalRead(ldrPinC6);
@@ -266,7 +266,7 @@ ldrValueH7 = digitalRead(ldrPinH7);
 ldrValueH8 = digitalRead(ldrPinH8);
 
 if (ldrValueA1 == 0) {
-  Serial.println('ldrValueA1:');
+  
   Serial.println(ldrValueA1);
   delay(500);
 } else if (ldrValueA2 == 0) {
@@ -274,8 +274,8 @@ if (ldrValueA1 == 0) {
   Serial.println(ldrValueA2);
   delay(500);
 } else if (ldrValueA3 == 0) {
-  Serial.println('ldrValueA3:':);
-  Serial.println(ldrValuegA3);
+  Serial.println('ldrValueA3:');
+  Serial.println(ldrValueA3);
   delay(500);
 } else if (ldrValueA4 == 0) {
   Serial.println('ldrValueA4:');
@@ -286,239 +286,239 @@ if (ldrValueA1 == 0) {
   Serial.println(ldrValueA5);
   delay(500);
 } else if (ldrValueA6 == 0) {
-  Serial.println('ldrValueA6:')
+  Serial.println('ldrValueA6:');
   Serial.println(ldrValueA6);
   delay(500);
 } else if (ldrValueA7 == 0) {
-  Serial.println('ldrValueA7:')
+  Serial.println('ldrValueA7:');
   Serial.println(ldrValueA7);
   delay(500);
 } else if (ldrValueA8 == 0) {
-  Serial.println('ldrValueA8:')
+  Serial.println('ldrValueA8:');
   Serial.println(ldrValueA8);
   delay(500);
 } else if (ldrValueB1 == 0) {
-    Serial.println('ldrValueB1:')
+    Serial.println('ldrValueB1:');
   Serial.println(ldrValueB1);
   delay(500);
 } else if (ldrValueB2 == 0) {
-  Serial.println('ldrValueB2:')
+  Serial.println('ldrValueB2:');
   Serial.println(ldrValueB2);
   delay(500);
 } else if (ldrValueB3 == 0) {
-  Serial.println('ldrValueB3:')
+  Serial.println('ldrValueB3:');
   Serial.println(ldrValueB3);
   delay(500);
 } else if (ldrValueB4 == 0) {
-  Serial.println('ldrValueB4:')
+  Serial.println('ldrValueB4:');
   Serial.println(ldrValueB4);
   delay(500);
 } else if (ldrValueB5 == 0) {
-  Serial.println('ldrValueB5:')
+  Serial.println('ldrValueB5:');
   Serial.println(ldrValueB5);
   delay(500);
 } else if (ldrValueB6 == 0) {
-  Serial.println('ldrValueB6:')
+  Serial.println('ldrValueB6:');
   Serial.println(ldrValueB6);
   delay(500);
 } else if (ldrValueB7 == 0) {
-  Serial.println('ldrValueB7:')
+  Serial.println('ldrValueB7:');
   Serial.println(ldrValueB7);
   delay(500);
 } else if (ldrValueB8 == 0) {
-  Serial.println('ldrValueB8:')
+  Serial.println('ldrValueB8:');
   Serial.println(ldrValueB8);
   delay(500);
 } else if (ldrValueC1 == 0) {
-  Serial.println('ldrValueC1:')
+  Serial.println('ldrValueC1:');
   Serial.println(ldrValueC1);
   delay(500);
 } else if (ldrValueC2 == 0) {
-  Serial.println('ldrValueC2:')
+  Serial.println('ldrValueC2:');
   Serial.println(ldrValueC2);
   delay(500);
 } else if (ldrValueC3 == 0) {
-  Serial.println('ldrValueC3:')
+  Serial.println('ldrValueC3:');
   Serial.println(ldrValueC3);
   delay(500);
 } else if (ldrValueC4 == 0) {
-  Serial.println('ldrValueC4:')
+  Serial.println('ldrValueC4:');
   Serial.println(ldrValueC4);
   delay(500);
 } else if (ldrValueC5 == 0) {
-  Serial.println('ldrValueC5:')
+  Serial.println('ldrValueC5:');
   Serial.println(ldrValueC5);
   delay(500);
 } else if (ldrValueC6 == 0) {
-  Serial.println('ldrValueC6:')
+  Serial.println('ldrValueC6:');
   Serial.println(ldrValueC6);
   delay(500);
 } else if (ldrValueC7 == 0) {
-  Serial.println('ldrValueC7:')
+  Serial.println('ldrValueC7:');
   Serial.println(ldrValueC7);
   delay(500);
 } else if (ldrValueC8 == 0) {
-  Serial.println('ldrValueC8:')
+  Serial.println('ldrValueC8:');
   Serial.println(ldrValueC8);
   delay(500);
 } else if (ldrValueD1 == 0) {
-  Serial.println('ldrValueD1:')
+  Serial.println('ldrValueD1:');
   Serial.println(ldrValueD1);
   delay(500);
 } else if (ldrValueD2 == 0) {
-  Serial.println('ldrValueD2:')
+  Serial.println('ldrValueD2:');
   Serial.println(ldrValueD2);
   delay(500);
 } else if (ldrValueD3 == 0) {
-  Serial.println('ldrValueD3:')
+  Serial.println('ldrValueD3:');
   Serial.println(ldrValueD3);
   delay(500);
 } else if (ldrValueD4 == 0) {
-  Serial.println('ldrValueD4:')
+  Serial.println('ldrValueD4:');
   Serial.println(ldrValueD4);
   delay(500);
 } else if (ldrValueD5 == 0) {
-  Serial.println('ldrValueD5:')
+  Serial.println('ldrValueD5:');
   Serial.println(ldrValueD5);
   delay(500);
 } else if (ldrValueD6 == 0) {
-  Serial.println('ldrValueD6:')
+  Serial.println('ldrValueD6:');
   Serial.println(ldrValueD6);
   delay(500);
 } else if (ldrValueD7 == 0) {
-  Serial.println('ldrValueD7:')
+  Serial.println('ldrValueD7:');
   Serial.println(ldrValueD7);
   delay(500);
 } else if (ldrValueD8 == 0) {
-  Serial.println('ldrValueD8:')
+  Serial.println('ldrValueD8:');
   Serial.println(ldrValueD8);
   delay(500);
 } else if (ldrValueE1 == 0) {
-  Serial.println('ldrValueE1:')
+  Serial.println('ldrValueE1:');
   Serial.println(ldrValueE1);
   delay(500);
 } else if (ldrValueE2 == 0) {
-  Serial.println('ldrValueE2:')
+  Serial.println('ldrValueE2:');
   Serial.println(ldrValueE2);
   delay(500);
 } else if (ldrValueE3 == 0) {
-  Serial.println('ldrValueE3:')
+  Serial.println('ldrValueE3:');
   Serial.println(ldrValueE3);
   delay(500);
 } else if (ldrValueE4 == 0) {
-  Serial.println('ldrValueE4:')
+  Serial.println('ldrValueE4:');
   Serial.println(ldrValueE4);
   delay(500);
 } else if (ldrValueE5 == 0) {
-  Serial.println('ldrValueE5:')
+  Serial.println('ldrValueE5:');
   Serial.println(ldrValueE5);
   delay(500);
 } else if (ldrValueE6 == 0) {
-  Serial.println('ldrValueE6:')
+  Serial.println('ldrValueE6:');
   Serial.println(ldrValueE6);
   delay(500);
 } else if (ldrValueE7 == 0) {
-  Serial.println('ldrValueE7:')
+  Serial.println('ldrValueE7:');
   Serial.println(ldrValueE7);
   delay(500);
 } else if (ldrValueE8 == 0) {
-  Serial.println('ldrValueE8:')
+  Serial.println('ldrValueE8:');
   Serial.println(ldrValueE8);
   delay(500);
 } else if (ldrValueF1 == 0) {
-  Serial.println('ldrValueF1:')
+  Serial.println('ldrValueF1:');
   Serial.println(ldrValueF1);
   delay(500);
 } else if (ldrValueF2 == 0) {
-  Serial.println('ldrValueF2:')
+  Serial.println('ldrValueF2:');
   Serial.println(ldrValueF2);
   delay(500);
 } else if (ldrValueF3 == 0) {
-  Serial.println('ldrValueF3:')
+  Serial.println('ldrValueF3:');
   Serial.println(ldrValueF3);
   delay(500);
 } else if (ldrValueF4 == 0) {
-  Serial.println('ldrValueF4:')
+  Serial.println('ldrValueF4:');
   Serial.println(ldrValueF4);
   delay(500);
 } else if (ldrValueF5 == 0) {
-  Serial.println('ldrValueF5:')
+  Serial.println('ldrValueF5:');
   Serial.println(ldrValueF5);
   delay(500);
 } else if (ldrValueF6 == 0) {
-  Serial.println('ldrValueF6:')
+  Serial.println('ldrValueF6:');
   Serial.println(ldrValueF6);
   delay(500);
 } else if (ldrValueF7 == 0) {
-  Serial.println('ldrValueF7:')
+  Serial.println('ldrValueF7:');
   Serial.println(ldrValueF7);
   delay(500);
 } else if (ldrValueF8 == 0) {
-  Serial.println('ldrValueF8:')
+  Serial.println('ldrValueF8:');
   Serial.println(ldrValueF8);
   delay(500);
 } else if (ldrValueG1 == 0) {
-  Serial.println('ldrValueG1:')
+  Serial.println('ldrValueG1:');
   Serial.println(ldrValueG1);
   delay(500);
 } else if (ldrValueG2 == 0) {
-  Serial.println('ldrValueG2:')
+  Serial.println('ldrValueG2:');
   Serial.println(ldrValueG2);
   delay(500);
 } else if (ldrValueG3 == 0) {
-  Serial.println('ldrValueG3:')
+  Serial.println('ldrValueG3:');
   Serial.println(ldrValueG3);
   delay(500);
 } else if (ldrValueG4 == 0) {
-  Serial.println('ldrValueG4:')
+  Serial.println('ldrValueG4:');
   Serial.println(ldrValueG4);
   delay(500);
 } else if (ldrValueG5 == 0) {
-  Serial.println('ldrValueG5:')
+  Serial.println('ldrValueG5:');
   Serial.println(ldrValueG5);
   delay(500);
 } else if (ldrValueG6 == 0) {
-  Serial.println('ldrValueG6:')
+  Serial.println('ldrValueG6:');
   Serial.println(ldrValueG6);
   delay(500);
 } else if (ldrValueG7 == 0) {
-  Serial.println('ldrValueG7:')
+  Serial.println('ldrValueG7:');
   Serial.println(ldrValueG7);
   delay(500);
 } else if (ldrValueG8 == 0) {
-  Serial.println('ldrValueG8:')
+  Serial.println('ldrValueG8:');
   Serial.println(ldrValueG8);
   delay(500);
 } else if (ldrValueH1 == 0) {
-  Serial.println('ldrValueH1:')
+  Serial.println('ldrValueH1:');
   Serial.println(ldrValueH1);
   delay(500);
 } else if (ldrValueH2 == 0) {
-  Serial.println('ldrValueH2:')
+  Serial.println('ldrValueH2:');
   Serial.println(ldrValueH2);
   delay(500);
 } else if (ldrValueH3 == 0) {
-  Serial.println('ldrValueH3:')
+  Serial.println('ldrValueH3:');
   Serial.println(ldrValueH3);
   delay(500);
 }  else if (ldrValueH4 == 0) {
-  Serial.println('ldrValueH4:')
+  Serial.println('ldrValueH4:');
   Serial.println(ldrValueH4);
   delay(500);
 } else if (ldrValueH5 == 0) {
-  Serial.println('ldrValueH5:')
+  Serial.println('ldrValueH5:');
   Serial.println(ldrValueH5);
   delay(500);
 } else if (ldrValueH6 == 0) {
-  Serial.println('ldrValueH6:')
+  Serial.println('ldrValueH6:');
   Serial.println(ldrValueH6);
   delay(500);
 } else if (ldrValueH7 == 0) {
-  Serial.println('ldrValueH7:')
+  Serial.println('ldrValueH7:');
   Serial.println(ldrValueH7);
   delay(500);
 } else if (ldrValueH8 == 0) {
-  Serial.println('ldrValueH8:')
+  Serial.println('ldrValueH8:');
   Serial.println(ldrValueH8);
   delay(500);
 }
